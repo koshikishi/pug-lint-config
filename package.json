@@ -18,7 +18,15 @@
   "exports": "./index.js",
   "repository": "github:koshikishi/pug-lint-config",
   "scripts": {
+    "lint": "npm run lint:spaces && npm run lint:scripts",
+    "lint:spaces": "ec",
+    "lint:scripts": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@koshikishi/eslint-config": "^1.1.0",
+    "editorconfig-checker": "^5.1.2",
+    "eslint": "^8.56.0"
   },
   "peerDependencies": {
     "pug-lint": "^2.7.0"
