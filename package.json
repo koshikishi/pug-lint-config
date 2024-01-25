@@ -16,5 +16,11 @@
   "repository": "github:koshikishi/pug-lint-config",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "pug-lint": "^2.7.0"
+  },
+  "engines": {
+    "node": ">=18.0"
   }
 }
