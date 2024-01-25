@@ -4,7 +4,6 @@ module.exports = {
   disallowBlockExpansion: true,
   disallowClassAttributeWithStaticValue: true,
   disallowDuplicateAttributes: true,
-  disallowHtmlText: true,
   disallowIdAttributeWithStaticValue: true,
   disallowLegacyMixinCall: true,
   disallowMultipleLineBreaks: true,
