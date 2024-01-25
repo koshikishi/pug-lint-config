@@ -12,7 +12,10 @@
   },
   "license": "MIT",
   "author": "Anton Northern",
-  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "exports": "./index.js",
   "repository": "github:koshikishi/pug-lint-config",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
