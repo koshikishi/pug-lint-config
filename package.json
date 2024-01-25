@@ -1,0 +1,20 @@
+{
+  "name": "@koshikishi/pug-lint-config",
+  "version": "0.1.0",
+  "description": "Pug-lint shareable config",
+  "keywords": [
+    "puglint",
+    "puglintconfig"
+  ],
+  "homepage": "https://github.com/koshikishi/pug-lint-config#readme",
+  "bugs": {
+    "url": "https://github.com/koshikishi/pug-lint-config/issues"
+  },
+  "license": "MIT",
+  "author": "Anton Northern",
+  "main": "index.js",
+  "repository": "github:koshikishi/pug-lint-config",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
