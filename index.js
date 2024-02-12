@@ -1,19 +1,14 @@
 'use strict';
 
 module.exports = {
-  disallowBlockExpansion: true,
-  disallowClassAttributeWithStaticValue: true,
   disallowDuplicateAttributes: true,
-  disallowIdAttributeWithStaticValue: true,
   disallowLegacyMixinCall: true,
   disallowMultipleLineBreaks: true,
   disallowSpacesInsideAttributeBrackets: true,
   disallowSpecificTags: ['style'],
-  disallowTrailingSpaces: true,
   requireClassLiteralsBeforeAttributes: true,
   requireClassLiteralsBeforeIdLiterals: true,
   requireIdLiteralsBeforeAttributes: true,
-  requireLineFeedAtFileEnd: true,
   requireLowerCaseAttributes: true,
   requireLowerCaseTags: true,
   requireSpaceAfterCodeOperator: true,
@@ -44,8 +39,6 @@ module.exports = {
     separator: ' ',
     multiLineSeparator: '\n  ',
   },
-  validateExtensions: true,
-  validateIndentation: 2,
   validateSelfClosingTags: true,
   validateTemplateString: true,
 };
