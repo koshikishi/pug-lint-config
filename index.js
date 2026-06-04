@@ -17,21 +17,25 @@ module.exports = {
   }, {
     time: ['datetime'],
   }, {
-    source: ['type'],
-  }, {
     img: ['src', 'alt', 'width', 'height'],
   }, {
-    form: ['action'],
+    video: ['width', 'height'],
   }, {
-    input: ['name'],
+    iframe: ['width', 'height'],
+  }, {
+    source: ['type'],
+  }, {
+    svg: ['width', 'height'],
+  }, {
+    form: ['action', 'method'],
   }, {
     button: ['type'],
+  }, {
+    input: ['name'],
   }, {
     select: ['name'],
   }, {
     textarea: ['name'],
-  }, {
-    svg: ['width', 'height'],
   }],
   requireStrictEqualityOperators: true,
   validateAttributeQuoteMarks: '"',
