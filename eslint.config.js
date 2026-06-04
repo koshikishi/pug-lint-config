@@ -1,13 +1,14 @@
 'use strict';
 
+const {defineConfig} = require('eslint/config');
 const config = require('@koshikishi/eslint-config/node');
-const globals = require('globals');
 
-module.exports = [
-  ...config,
+module.exports = defineConfig([
   {
-    languageOptions: {
-      globals: globals.node,
+    extends: [config],
+    rules: {
+      'strict': ['error', 'global'],
+      'unicorn/prefer-module': 'off',
     },
   },
-];
+]);
