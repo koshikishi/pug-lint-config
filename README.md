@@ -8,6 +8,13 @@ The pug-lint shareable config designed for my personal projects.
 
 Use it as is or as a foundation for your own configuration file.
 
+## Prerequisites
+
+This package requires:
+
+- Node.js >= 24
+- `pug-lint` >= 2.7
+
 ## Installation
 
 Install the package and `pug-lint` in your project:
